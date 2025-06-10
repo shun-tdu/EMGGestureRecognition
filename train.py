@@ -19,7 +19,7 @@ if __name__ == '__main__':
         batch_size=50,
         num_epoch=300,
         learning_rate=1e-4,
-        data_path='../../../EmgData/15Subjects-7Gestures/',
+        data_path='./15Subjects-7Gestures/',
         subject_label=('S0', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'S11', 'S12'),
         data_header=('emg1', 'emg2', 'emg3', 'emg4', 'emg5', 'emg6', 'emg7', 'emg8'),
         gesture_label=('fistdwn', 'neut', 'left', 'right'),

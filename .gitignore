@@ -25,7 +25,6 @@ __pycache__/
 # —— Data, outputs, and trained models ——
 data/
 outputs/
-models/
 *.h5
 *.pt
 *.ckpt
